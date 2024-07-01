@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PaxtonLiu_Paxton_Crystal_S02
+  m_Shader: {fileID: 4800000, guid: 26416af4644346a40bb26927ee549495, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INNERRIMMASKFLIP
+  - _POSITION_WORLDPOSITION
+  m_InvalidKeywords:
+  - _POSITION_WORLDPOSOTION
+  - _POSITION_WORLDPOSOTION1
+  - _POSITION__POSITION_OBJECTPOSITION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _InnerRimMaskExp
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: 357516955bc394d489bf350347f0cf95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InnerRimMask:
+        m_Texture: {fileID: 2800000, guid: 9e6d234484fe0464f94370791475dd7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MRTex:
+        m_Texture: {fileID: 2800000, guid: 5774ff4ea667f1342bf07bf4ac638572, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b4928b19fb02ee4d836eeae7e7815e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MianTex:
+        m_Texture: {fileID: 2800000, guid: 4b4928b19fb02ee4d836eeae7e7815e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDetil:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: c414eb40e4dbceb44a17a31c47554c6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxNoiseMap:
+        m_Texture: {fileID: 2800000, guid: 9c3b5c5df0654a7296c18c4c30cc9777, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 305b0879b1924fa8a4599d9ce4e73155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientInt: 1
+    - _FinalColor: 0
+    - _FinalPower: 100
+    - _FlowSpeed: 0.1
+    - _FresnelIntensity: 0
+    - _FresnelRadius: 0.367
+    - _InnerRimExp: 7.97
+    - _InnerRimHackNormals: 0.772
+    - _InnerRimMaskExp: 3.32
+    - _InnerRimMaskNegate: 0
+    - _InnerRinEnable: 0
+    - _NormalDetilIntensity: 1
+    - _NormalIntensity: 1
+    - _POSITION: 0
+    - _ParallaxNoiseDepth: 0.22
+    - _ParallaxNoiseNegate: 0
+    - _ParallaxNoiseScaleU: 1
+    - _ParallaxNoiseScaleV: 1
+    - _Position: 0
+    - _RampOffsetExp: 1
+    - _RampRemapMax: 1
+    - _ReflectPower: 0
+    - _RevertSmooth: 0
+    - _RimMaskFlip: 0
+    - _Roughness: 0.49
+    - _Smoothness: 0.243
+    - _TimeSpeed: 1
+    - _Toggle: 1
+    - _UseVertex: 0
+    - _UseWorldPos: 0
+    - _VertexRFlip: 0
+    - _VerticalGradientExp: 1
+    - _VerticalGradientFlipSwitch: 0
+    - _VerticalGradientOffset: 0.6
+    - _VerticalGradientRemapMax: 1
+    - _flipY: 0
+    - _vertexColNegate: 1
+    m_Colors:
+    - _AlbedoColorTint: {r: 3.031433, g: 3.031433, b: 3.031433, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FinalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0.8018867, g: 0.85028946, b: 1, a: 1}
+    - _InnerRimHackNormals: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColorTint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

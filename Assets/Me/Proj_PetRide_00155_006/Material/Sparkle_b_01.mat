@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sparkle_b_01
+  m_Shader: {fileID: 4800000, guid: fe46ba48f5129d74fb00ea5b49f2deef, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 2803bcc4f7879ec4e950a20ce708ae54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxStarMap01:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxStarMap02:
+        m_Texture: {fileID: 2800000, guid: 247d443f735663c47bca41afe075f1a6, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _SparkMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap01:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap02:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _shuijing:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _CrystalHeight0: 5.23
+    - _DissolvedSize: 1
+    - _DissolvedSpeed: 0
+    - _FresnelAlphaIntensity: 0
+    - _FresnelIntensity: 0.659
+    - _FresnelPower: 0.536
+    - _ParalaxHeight01: 2.25
+    - _ParalaxHeight02: 4.19
+    - _ParalaxSpeed: 0.2
+    - _ParalaxSpeed2: 0.2
+    - _ParalaxStarPower01: 1
+    - _ParalaxStarPower02: 5.8
+    - _ReceiveShadows: 1
+    - _SparkPower: 1
+    - _SparkSpeed: 1
+    - _SparkTiling: 10
+    - _Speed: 1.049022
+    - _StarIntensity: 0
+    - _StarIntensity01: 5.9
+    - _StarIntensity02: 2
+    - _StarPower: 1
+    - _shuijingIntensity: 1
+    m_Colors:
+    - _BaseCol: {r: 1, g: 1, b: 1, a: 0}
+    - _CrystalTillingScale: {r: 1, g: 1, b: -0.51, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelCol: {r: 0.43867916, g: 0.62578624, b: 1, a: 0}
+    - _ParalaxStarCol01: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _ParalaxStarCol02: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _ParalaxTillingScale: {r: 1, g: 1, b: 1, a: 1}
+    - _ShuijingColor: {r: 0.6273585, g: 0.7015415, b: 1, a: 0}
+    - _SparkCol: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
+    - _StarCol: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _StarTillingScale: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

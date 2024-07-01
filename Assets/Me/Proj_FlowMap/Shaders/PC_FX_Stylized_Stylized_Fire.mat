@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PC_FX_Stylized_Stylized_Fire
+  m_Shader: {fileID: 4800000, guid: 29611891abb392c419791f0550f9445f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 98a0b8e79a7200540af4a80569e9b48e, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 2.73
+    - _Contrast: 0.88
+    - _Cull: 2
+    - _DstBlend: 10
+    - _EnbaleBloom: 0
+    - _InnerFlameStep: 0.06
+    - _Noise1Scale: 1.58
+    - _Noise1Speed: 0.9
+    - _Noise2Scale: 2.52
+    - _Noise2Speed: -0.25
+    - _OpacityStep: 0.43
+    - _OutColorBlend: 0.654
+    - _ShadingAmount: 1
+    - _SrcBlend: 5
+    - _YOffset: 7.1
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _InnerColor: {r: 0.764151, g: 0.534259, b: 0.16941082, a: 1}
+    - _OutColorBase: {r: 0.8490566, g: 0.3484336, b: 0.3484336, a: 1}
+    - _OutColorTop: {r: 0.8867924, g: 0.3740014, b: 0.13803846, a: 1}
+  m_BuildTextureStacks: []

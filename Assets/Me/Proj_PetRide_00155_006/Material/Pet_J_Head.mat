@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pet_J_Head
+  m_Shader: {fileID: 4800000, guid: 126ee4baea9e845408ba55429da5872c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: db28ef2033fe343458bda9464be2118f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: ef001cc2b6c9fb949a58f6985d4b1016, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 2fa23bfcbca4c064d8a93d51e9bd9d34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomUV:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: 21de4dbae3faa724a94be5964984d78f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaVColIntensity: 0
+    - _FrsnelPower: 1
+    - _Height: -1.35
+    - _Light: 0.53
+    - _ParalaxHeight01: 2.25
+    - _ParalaxHeight02: 4.56
+    - _ParalaxSpeed: 0.2
+    - _ParalaxSpeed2: 0.8
+    - _ParalaxStarIntensity01: 0
+    - _ParalaxStarIntensity02: 0
+    - _ParalaxStarPower01: 2.5
+    - _ParalaxStarPower02: 5.8
+    - _RampIntensity: 0.475
+    - _ReflectIntensity: 1
+    - _Speed: -1
+    - _StarIntensity: 0
+    - _StarPower: 1.7
+    - _WeightClamp: 0
+    m_Colors:
+    - _BaseCol: {r: 0.9212035, g: 0.8632076, b: 1, a: 1}
+    - _CrystalCol: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0}
+    - _CrystalTilling: {r: 2, g: 2, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ParalaxStarCol01: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _ParalaxStarCol02: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _ParalaxTillingScale: {r: 1, g: 1, b: 1.5, a: 1.5}
+    - _StarCol: {r: 0.8486246, g: 0.9417664, b: 1.976675, a: 0.003921569}
+    - _StarTilling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

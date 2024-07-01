@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Girl_01645_Bottom_0127
+  m_Shader: {fileID: 4800000, guid: a124bb2a23bfa934f844e73d94e0f0f9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MAIN_DIRECT
+  - _SECOND_DIRECT
+  - _SPARKLE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 2800000, guid: e4b38866534f2ca44a2e09b37542955a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffueMap:
+        m_Texture: {fileID: 2800000, guid: f5fde3067254a1442b2427758f2aa6eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter01Tex:
+        m_Texture: {fileID: 2800000, guid: 294a7782d8c0b2b4d83008cc98071755, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter02Tex:
+        m_Texture: {fileID: 2800000, guid: a26bfdd73e091e949a32a0c695ec59e6, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter03Tex:
+        m_Texture: {fileID: 2800000, guid: f52b9f89907516d4a88a9f2f3f8e8dcb, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: c23846571aec4cb8b088b183a889a9d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: bf34050362fe4cc4d82cfcacfb74ff3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: 329a792ec57d56b42b61b6c449e42c32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShiningMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleMap:
+        m_Texture: {fileID: 2800000, guid: e4b38866534f2ca44a2e09b37542955a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarryMap:
+        m_Texture: {fileID: 2800000, guid: 294a7782d8c0b2b4d83008cc98071755, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _sarMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: -0.6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - GlitterMetallic: 1
+    - GlitterRoughness: 0.5
+    - SpecularAlphaScale: 0
+    - SpecularIntensity: 1
+    - Specularcontrast: 1
+    - Specularpower: 1.5
+    - _ACES_A: 1.94
+    - _ACES_B: 0
+    - _ACES_C: 1.5
+    - _ACES_D: 0.59
+    - _ACES_E: 0.14
+    - _AOMul: 1
+    - _AdvDissolve: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaMaskToggle: 0
+    - _Alphaweight: 1
+    - _Alphaweight1: 1
+    - _AmbientPower: 1
+    - _AnisotropyScale: 0
+    - _AnisotropyShift: 0
+    - _AnisotropyToggle: 0
+    - _BackAnisotropyShift: 0
+    - _BackRotation: 0
+    - _BlendMode: 0
+    - _BloomToggle: 0
+    - _ClipOffset: 0
+    - _ClipToggle: 0
+    - _ColorClamp: 12
+    - _CrystalIntensity: 120
+    - _CullMode: 2
+    - _CustomHDR: 0
+    - _Cutoff: 0.5
+    - _DefaultSMToggle: 1
+    - _DetailAOScale: 1
+    - _DetailAlbedoReplace: 0
+    - _DetailAlbedoScale: 1
+    - _DetailAlpha: 0
+    - _DetailEmissionScale: 0
+    - _DetailExposure: 1
+    - _DetailMaskType: 0
+    - _DetailMetallicScale: 1
+    - _DetailNormalScale: 1
+    - _DetailRoughnessScale: 1
+    - _DetailTile: 1
+    - _DetailTile2: 1
+    - _DetailTile3: 1
+    - _DetailTile4: 1
+    - _DetailToggle: 0
+    - _DetailUV3Toggle: 0
+    - _DetailUVPadding: 0.0015
+    - _DiamondBlendPower: 1
+    - _DiamondMaskIntensity: 1
+    - _DiamondNormalScale: 1
+    - _DiamondUV3Toggle: 0
+    - _DiamondsDirectDiffuse: 1
+    - _DiamondsDirectSpecular: 1
+    - _DiamondsInDirectDiffuse: 1
+    - _DiamondsInDirectSpecular: 1
+    - _DiamondsOutLineIntensity: 1
+    - _DiamondsTexOutLineMulit: 5
+    - _DiamondsTexOutLineSet: 1.5
+    - _DiamondsTexOutPow: 1
+    - _DirCameraSpecular: 0
+    - _DirLightType: 0
+    - _DirectDiffuse: 1
+    - _DirectSpecular: 1
+    - _Dissolve: 0.531
+    - _DissolveAdd: 0
+    - _DissolveAlphaToggle: 1
+    - _DissolveFresnel: 0
+    - _DissolveSphereToggle: 0
+    - _DissolveTiling: 1
+    - _DstBlend: 0
+    - _EffectParallaxDepht: 1
+    - _EffectParallaxMulit: 1
+    - _EffectTexColorMulit: 1
+    - _EffectTexOffsetU: 0.1
+    - _EffectTexOffsetV: 0
+    - _EmissionOn: 0
+    - _EmissiveDebug: 1
+    - _EnvAverageBrightness: 0.001
+    - _EnvDiffuse: 1
+    - _EnvIndirect: 0
+    - _EnvRotation: 0
+    - _EnvSpecular: 1
+    - _FabricClampMax: 1
+    - _FabricClampMin: 0
+    - _FabricTightness: 1
+    - _FabricToggle: 0
+    - _FinalMixMulit: 0
+    - _FinalPower: 2
+    - _FirstIceDepthPower: 2
+    - _FirstIceDepthScale: 0.24
+    - _FirstParallaxDistance: 0.236
+    - _FirstParallaxSteps: 1
+    - _FlakeToggle: 0
+    - _Float11: 1
+    - _Float18: 13.6
+    - _Float21: 0
+    - _Float8: 1.4
+    - _Frequency: 0.1
+    - _FresnaelPower: 5
+    - _FresnelAddToggle: 1
+    - _FresnelAlphaToggle: 1
+    - _FresnelClampMax: 1
+    - _FresnelClampMin: 0
+    - _FresnelIntensity: 0.222
+    - _FresnelIntensity1: 0
+    - _FresnelPower: 0.238
+    - _FresnelPower1: 1.4
+    - _FresnelTightness: 4
+    - _FresnelToggle: 0
+    - _FrsnelIntensity: 1
+    - _FrsnelPower: 0.1
+    - _Gamma: 0.45454544
+    - _Glitter01Contrast: 1
+    - _Glitter01DIsturbWeight: 0
+    - _Glitter01DisturbSpeed: 0.1
+    - _Glitter01DisturbStrength: 5
+    - _Glitter01FlowFreq1: 1
+    - _Glitter01FlowSpeed: 0.16
+    - _Glitter01FresnelArea: 1
+    - _Glitter01Height: -8.2
+    - _Glitter01Heightaaaa: 0
+    - _Glitter01Hue: 1
+    - _Glitter01Intenrity: 1
+    - _Glitter01Intensity: 28
+    - _Glitter01OffsetSpeed: 0.382
+    - _Glitter01Power: 1.2
+    - _Glitter01SpecArea: 6.6
+    - _Glitter02FlowFreq: 0.12
+    - _Glitter02FresnelArea: 13.7
+    - _Glitter02Power: 4.5
+    - _Glitter02SpecArea: 4.1
+    - _Glitter02Tilling1: 1
+    - _Glitter02shinFreq: 0.183
+    - _Glitter03Height: -7
+    - _Glitter03Intensity: 0
+    - _GlitterContrast: 1.5
+    - _GlitterPower: 2
+    - _GlitteryDotMaskSscale: 1
+    - _GlitterySpeed: 0.5
+    - _HairHighlightToggle: 0
+    - _Height: -1
+    - _Height1: 0
+    - _Height2: 0
+    - _Height3: 0
+    - _HighlightShift: 0
+    - _HighlightSpread: 1
+    - _Hue: 1
+    - _IceFresnelPower: 0
+    - _IceMaskScale: 1
+    - _IceToggle: 0
+    - _Intensity: 177.29
+    - _Intensity1: 1
+    - _InvertFresnel: 0
+    - _IridescenceFresnelLutPower: 1
+    - _IridescenceFresnelLutPower2: 1
+    - _IridescenceFresnelLutTile: 2
+    - _IridescenceFresnelLutTile2: 3
+    - _IridescenceFresnelScale: 1
+    - _IridescenceFresnelScale2: 0
+    - _IridescenceMask: 1
+    - _IridescenceShift: 0
+    - _IridescenceThickness: 0.5
+    - _IridescenceThicknessPower: 1
+    - _IridescenceThicknessScale: 1
+    - _IridescenceToggle: 0
+    - _LighingModel: 0
+    - _LightOffset: 0.115
+    - _LuminanceMinAlpha: 1
+    - _MainColorPower: 0.4
+    - _MainLightToggle: 1
+    - _MaskDistance: 1
+    - _MaskThickness: 1
+    - _MaterialType: 0
+    - _MetallicMul: 0
+    - _MixingScaleBiasAndLargestWeightX: 0
+    - _MixingScaleBiasAndLargestWeightY: 0
+    - _NdotVOffset: 0
+    - _Need_ACES_1: 0
+    - _Need_Diamond: 0
+    - _Noise01ScrollSpeed: 0.25
+    - _Noise01Tiling: 1
+    - _NoiseDistortionPower: 1
+    - _NoiseScale: 20
+    - _OffsetNormal: 20
+    - _OffsetView: 20
+    - _ParalaxHeight: 2.5
+    - _ParalaxHeight01: 5.9
+    - _ParalaxHeight02: 10
+    - _ParalaxHeight2: 3.67
+    - _ParalaxHeight3: 0
+    - _ParalaxSpeed: 0.5
+    - _ParalaxSpeed1: 0
+    - _ParalaxSpeed2: -0.5
+    - _ParalaxSpeed3: 0
+    - _ParalaxStarPower01: 2.3
+    - _ParalaxStarPower02: 2.2
+    - _ParalaxStarPower1: 7.5
+    - _ParalaxStarPower2: 7.8
+    - _ParalaxStarPower3: 0
+    - _ParallaxGlitter: 0
+    - _ParallaxGlitterUV3Toggle: 0
+    - _ParallaxMulit: 1
+    - _ParallaxNormalWarp: 0
+    - _ParallaxTexInOut: 0
+    - _ParallaxTexTiling: 5
+    - _Power: 15.7
+    - _ProbPower: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampCount: 2
+    - _RampToggle: 0
+    - _RandomWeight: 0
+    - _ReflectPower: 0.2
+    - _Rotation: 0
+    - _RoughnessMul: 0.306
+    - _Satruate: 0.8
+    - _ScaleU: 7.93
+    - _ScaleV: 10
+    - _SecondAnisotropyScale: 0
+    - _SecondAnisotropyShift: 0
+    - _SecondBackAnisotropyShift: 0
+    - _SecondBackSpecRotation: 0
+    - _SecondCamSpec: 0
+    - _SecondIceDepthLerp: 0.4
+    - _SecondIceDepthPower: 10
+    - _SecondIceDepthScale: 0
+    - _SecondParallaxDistance: 0.5
+    - _SecondParallaxHeight: 8.8
+    - _SecondParallaxScale: 0.001
+    - _SecondParallaxSteps: 1
+    - _SecondParallaxTiling: 0.85
+    - _SecondSpecRotation: 0
+    - _SecondSpecRoughness: 1
+    - _SecondSpecToggle: 1
+    - _ShiningPower: 3
+    - _Spark00Scale: 0.44
+    - _Spark00Speed: 0.1
+    - _Spark2Spec: 1
+    - _SparkHue: 0.284
+    - _SparkIntenrity: 1
+    - _SparkIntensity: 0
+    - _SparkIntensity1: 0
+    - _SparkIntensity2: 0
+    - _SparkPower: 15.2
+    - _SparkPower1: 0
+    - _SparkSpec: 19
+    - _SparkSpec1: 1
+    - _SparkSpeed: 0
+    - _SparkSpeed1: 0
+    - _SparkTiling: 1.78
+    - _SparkTiling1: 0
+    - _SparkleColorLayer01: 200
+    - _SparkleIntenrity: 0.7
+    - _SparkleOffsetSpeed: 0.5
+    - _SparkleStep01: 0.486
+    - _SparkleTilling: 1
+    - _SparkleToggle: 1
+    - _SparkleWeight: 1
+    - _SparkshinFreq: 1
+    - _SpecMaskScale: 0.5
+    - _SpecularGloss: 100
+    - _SpecularMaskScale: 1
+    - _SpecularMul: 0.5
+    - _SpecularPower: 0.1
+    - _Speed: 0.1
+    - _SprkleNormalOffset: 1
+    - _SprkleShinSpeed: 1
+    - _SprkleSpeed01: 0.01
+    - _SprkleViewOffset: 1
+    - _SprkleVornojAmount: 0.6915326
+    - _SprkleVornojOffset: 0.4
+    - _SprkleVornojScale: 16
+    - _SprkleVornojStrength: 2
+    - _SrcBlend: 1
+    - _Star00Intensity: 1
+    - _StarIntensity: 6.7
+    - _StarIntensity01: 2.58
+    - _StarIntensity02: 2
+    - _StarIntensity1: 0
+    - _StarIntensity3: 0
+    - _StarPower: 2.5
+    - _StarPower1: 0
+    - _Starry1Intensity: 0.338
+    - _Starry1Spec: 18.4
+    - _Starry1Speed: 0.2
+    - _Starry1Tilling: 2
+    - _Starry2Intensity: 0.25
+    - _Starry2Spec: 9.5
+    - _Starry2Speed: 0.2
+    - _Starry2Tilling: 5
+    - _StarryFlowSpeed: 1
+    - _StarryHue: 0.308
+    - _StarryIntensity: 0
+    - _StarryLightOffset: 0.2
+    - _StarryPower: 11.06
+    - _StarrySpec: 1
+    - _StarrySpeed: 0.1
+    - _StarryTilling: 4
+    - _Step: 0.871
+    - _StepSmooth: 0.679
+    - _TangentRotateType: 0
+    - _ThicknessIntensity: 2.02
+    - _ThicknessIntensity1: 2.02
+    - _ThicknessPower: 0.43
+    - _ThicknessPower1: 0.72
+    - _Tilling: 2
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistort: 0.1
+    - _TransScattering: 2
+    - _Translucency: 1
+    - _TwirlStrength: 5
+    - _TwoSideLigthing: 0
+    - _UseUV: 0
+    - _UseUV3: 0
+    - _VertexWeight: 0
+    - _VoronoiBump: 1
+    - _VoronoiGlitter: 0
+    - _VoronoiMetallic: 1
+    - _VoronoiPower: 2
+    - _VoronoiRoughness: 0
+    - _VoronoiThreshold: 0.6
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _paralax: 1
+    - _xingkongHue: 0
+    - _xingkongIntensity: 0
+    m_Colors:
+    - _Base: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
+    - _BaseCol: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+    - _BaseCol1: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.85882354, g: 0.85882354, b: 0.85882354, a: 1}
+    - _ClothCol: {r: 0, g: 0, b: 0, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0}
+    - _CrystalCol: {r: 1, g: 1, b: 1, a: 0}
+    - _CrystalTillingSpeed: {r: 1, g: 3, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiamondRMA: {r: 1, g: 1, b: 1, a: 0}
+    - _DiamondsTexOutColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _DirLightColor: {r: 0.23718408, g: 0.30797285, b: 0.6132076, a: 1}
+    - _DirLightColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _DirLightDir: {r: 0, g: 0.7226453, b: 0.6912192, a: 0}
+    - _DirLightDir2: {r: 0, g: 0.3420202, b: 0.9396927, a: 1}
+    - _DirSpecColorTint: {r: 2.1780353, g: 2.3133473, b: 4.9121647, a: 1}
+    - _DirSpecColorTint2: {r: 1, g: 1, b: 1, a: 1}
+    - _EffectTexColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FCol: {r: 1, g: 1, b: 1, a: 0}
+    - _FinalMixColor: {r: 1.5, g: 0, b: 0, a: 1}
+    - _FlakeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlakePack0: {r: 425, g: 0.2, b: 0.02, a: 18}
+    - _FresnelCol: {r: 0.8254718, g: 0.9709379, b: 1, a: 0}
+    - _FresnelCol1: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelColorInside: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColorOutside: {r: 1, g: 1, b: 1, a: 1}
+    - _Glitter01Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Glitter02Color: {r: 1, g: 1, b: 1, a: 0}
+    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IceDepthColor: {r: 0, g: 0, b: 0, a: 0}
+    - _IceFresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ParalaxSparkCol: {r: 0.98833734, g: 0.98833734, b: 0.98833734, a: 0}
+    - _ParalaxSparkCol2: {r: 1, g: 1, b: 1, a: 0}
+    - _ParalaxStarCol01: {r: 1, g: 1, b: 1, a: 0}
+    - _ParalaxStarCol02: {r: 1, g: 1, b: 1, a: 0}
+    - _ParalaxStarCol2: {r: 0, g: 0, b: 0, a: 0}
+    - _ParalaxStarCol3: {r: 0, g: 0, b: 0, a: 0}
+    - _ParallaxDepthRGB: {r: 1, g: 2, b: 3, a: 0}
+    - _RampColor0: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _RampColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _RandomMapTillingSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _SHAb: {r: -0.0033007246, g: 0.20152417, b: -0.18806519, a: 0.32601663}
+    - _SHAg: {r: -0.005081732, g: 0.27550474, b: -0.32807285, a: 0.46646217}
+    - _SHAr: {r: -0.0080269575, g: 0.29577357, b: -0.36763984, a: 0.496154}
+    - _SHBb: {r: 0.0097869765, g: -0.2041801, b: 0.39401346, a: -0.093498714}
+    - _SHBg: {r: 0.009837903, g: -0.31330198, b: 0.50448835, a: -0.1270169}
+    - _SHBr: {r: 0.004089685, g: -0.33916923, b: 0.51605463, a: -0.13449734}
+    - _SHC: {r: 0.07733162, g: 0.07759451, b: 0.06821531, a: 1}
+    - _SH_0: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_1: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_2: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_3: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_4: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_5: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_6: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_7: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_8: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondDiffuseColor: {r: 0.5566038, g: 0.5969776, b: 1, a: 1}
+    - _SecondDiffuseColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDirectColor: {r: 0.254717, g: 0.34005052, b: 1, a: 1}
+    - _SecondDirectColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDirectDir: {r: 0, g: 0.74, b: 0.24, a: 0}
+    - _SecondDirectDir2: {r: 0, g: 0.5000001, b: 0.8660256, a: 1}
+    - _SparkCol: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 0.003921569}
+    - _SparkCol1: {r: 0, g: 0, b: 0, a: 0}
+    - _SparkleColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _StarCol: {r: 1, g: 1, b: 1, a: 0}
+    - _StarCol1: {r: 0, g: 0, b: 0, a: 0}
+    - _Starry1Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Starry2Color: {r: 1, g: 1, b: 1, a: 0}
+    - _StarryColor1: {r: 1, g: 1, b: 1, a: 0}
+    - _StartPosition: {r: 0, g: 1, b: 0, a: 1}
+    - _Tilling1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tint: {r: 0.90588236, g: 0.90588236, b: 0.90588236, a: 0}
+    - _UV: {r: 50, g: 50, b: 0, a: 0}
+    - _VoronoiGlitterColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

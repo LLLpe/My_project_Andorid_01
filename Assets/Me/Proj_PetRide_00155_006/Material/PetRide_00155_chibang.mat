@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PetRide_00155_chibang
+  m_Shader: {fileID: 4800000, guid: aa7c14aed3bcb6d439883bc6086e9e96, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 62f702209b1753f4ba92f016958321c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrystalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffueMap:
+        m_Texture: {fileID: 2800000, guid: 655770a14a4aeac4b8f0e7f26940e970, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: c46e5887c651a48499d93da7d0139c69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskRAlphaGEmisB:
+        m_Texture: {fileID: 2800000, guid: e54fffbb0fe9eb64b8e446a0fa321477, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: ef001cc2b6c9fb949a58f6985d4b1016, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxMap:
+        m_Texture: {fileID: 2800000, guid: 2cb61dba2311d4e4d85fa2c19d5fd31f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxStarMap01:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParalaxStarMap02:
+        m_Texture: {fileID: 2800000, guid: 247d443f735663c47bca41afe075f1a6, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 21de4dbae3faa724a94be5964984d78f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomMap:
+        m_Texture: {fileID: 2800000, guid: e73da1081bab94b4eb361a3eae7f865e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomUV:
+        m_Texture: {fileID: 2800000, guid: a004cab93befbcd45a803459638252e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: aa3ccaac1edf19b4b9ecf4aac2d2d7c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecRGlossGReflectB:
+        m_Texture: {fileID: 2800000, guid: 434d3b1e20108a3439761bef8acc872a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap:
+        m_Texture: {fileID: 2800000, guid: d9d142fbd0645ca40addfd642f4b0a30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap01:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap02:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _shuijing:
+        m_Texture: {fileID: 2800000, guid: d1d4e6cda54c5214cad6904aba2cfd50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0.27
+    - _AlphaCutoff: 0.5
+    - _AlphaVColIntensity: 0
+    - _AlphaWeight: 0
+    - _Bump: 1
+    - _CrystalHeight0: -1.5
+    - _CrystalIntensity: 1
+    - _CrystalIntensityAdd: 0
+    - _Float18: 0
+    - _FlowColIntensity: 1
+    - _FlowColPower: 1
+    - _FlowDistortion: 0
+    - _FlowDistortionNormal: 0
+    - _FresnelAlphaIntensity: 0.334
+    - _FresnelIntensity: 0.061
+    - _FresnelPower: 2
+    - _FrsnelIntensity: 1
+    - _FrsnelPower: 0.582
+    - _Height: -4
+    - _IOR: 1
+    - _Light: 2
+    - _MainColorPower: 1
+    - _ParalaxHeight01: 0
+    - _ParalaxHeight02: 0
+    - _ParalaxSpeed: 0.2
+    - _ParalaxSpeed2: 0.8
+    - _ParalaxStarIntensity01: 0
+    - _ParalaxStarIntensity02: 0
+    - _ParalaxStarPower01: 3.6
+    - _ParalaxStarPower02: 6.7
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampIntensity: 1
+    - _RampWeight: 1
+    - _RandomVertWeight: 0
+    - _RandomWeight: 0.359
+    - _ReceiveShadows: 1
+    - _ReflectIntensity: 1
+    - _ReflectPower: 1
+    - _SparkPower: 1
+    - _SparkSpeed: 1
+    - _SparkTiling: 10
+    - _SpecularGloss0100: 100
+    - _Speed: -1
+    - _StarIntensity: 5.8
+    - _StarIntensity01: 4.95
+    - _StarIntensity02: 2
+    - _StarPower: 3.5
+    - _ThicknessIntensity: 0
+    - _ThicknessPower: 1
+    - _VertexWeight: 0.58
+    - _WeightClamp: 1
+    - _aaaaa: 0.83
+    - _shuijingIntensity: 1
+    m_Colors:
+    - _BaseCol: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _CrystalCol: {r: 1, g: 1, b: 1, a: 0}
+    - _CrystalCol1: {r: 0.47036314, g: 0.53126514, b: 0.6603774, a: 0}
+    - _CrystalTilling: {r: 1, g: 2, b: 0, a: 0}
+    - _CrystalTillingScale: {r: 1, g: 1, b: -0.51, a: 0}
+    - _CrystalTillingSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _EmisColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FlowTillingOfsset: {r: 1, g: 1, b: 0, a: 0}
+    - _FresnelCol: {r: 0.4386792, g: 0.6257862, b: 1, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ParalaxStarCol01: {r: 2.6390164, g: 2.6390164, b: 2.6390164, a: 0.003921569}
+    - _ParalaxStarCol02: {r: 2.6390164, g: 2.6390164, b: 2.6390164, a: 0.003921569}
+    - _ParalaxTillingScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _RandomMapTillingSpeed: {r: 2, g: 2, b: 0, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShuijingColor: {r: 0.6084906, g: 0.7632734, b: 1, a: 0}
+    - _SparkCol: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _StarCol: {r: 2.6390164, g: 2.6390164, b: 2.6390164, a: 0.003921569}
+    - _StarSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _StarTilling: {r: 1, g: 1, b: 0, a: 0}
+    - _StarTillingScale: {r: 1, g: 1, b: 0, a: 0}
+    - _StarTillingSpeed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

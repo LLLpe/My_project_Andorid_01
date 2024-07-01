@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HHair_01587_01
+  m_Shader: {fileID: 4800000, guid: 7ca3a09a8ba0b004b89a8b1000aeeca1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrightnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrightnessNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmiTex:
+        m_Texture: {fileID: 2800000, guid: 49584926ffcb8cc458409478e8ffa10c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: 49584926ffcb8cc458409478e8ffa10c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrsnelMap:
+        m_Texture: {fileID: 2800000, guid: 6b11f1ebf053bdd418c4f6e8f834dc8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4721d0c4770feb3459f785b5140f6bfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 64d0daed95eb9ec4db05ff6a3e3f5cd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampSpecularMap:
+        m_Texture: {fileID: 2800000, guid: 9f871346a4618ca42bcb83e1a88ba3bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask2:
+        m_Texture: {fileID: 2800000, guid: db46d30b1c7028243bc21f9aea1a5162, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: 72bd17ec605b41d4ab63caf1dbf67c91, type: 3}
+        m_Scale: {x: 4, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Ambient: 0.65
+    - _BrightnessEdgePow: 2
+    - _BrightnessLerp: 1
+    - _BrightnessNoise: 1
+    - _DissolveEdgeColorIntensity: 1
+    - _DissolveEdgeWidth: 0.25
+    - _DissolveFresnelEdgePow: 2
+    - _DissolveFresnelPow: 2
+    - _DissolveOffset: 0
+    - _DissolveProgress: 0
+    - _Emi: 0
+    - _FrsnelPower: 1
+    - _NoiseDisturFr: 10.69
+    - _NoiseDisturIntensity: 1
+    - _NoiseDisturSpeed: 3
+    - _PrimaryShift: 0.71
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ShadowSoft: 0
+    - _SpecularPow: 0.7
+    - _SprkleVornojOffset: 11
+    - _SprkleVornojScale: 1
+    - _SprkleVornojStrength: 21.9
+    - _TimeOffset: 1
+    - _TimeSpeed: 1
+    - _shinOffset: 1
+    - _shinfreq: 1
+    m_Colors:
+    - _Brightness: {r: 1, g: 1, b: 1, a: 1}
+    - _BrightnessEdge: {r: 0, g: 0, b: 0, a: 1}
+    - _BrightnessTimeSpeed: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveEdgeColor: {r: 1, g: 1, b: 0, a: 1}
+    - _DissolveFresnelColorEdge: {r: 0, g: 0, b: 0, a: 1}
+    - _DissolveFresnelColorIn: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveFresnelColorOut: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

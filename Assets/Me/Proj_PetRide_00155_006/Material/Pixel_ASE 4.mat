@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pixel_ASE 4
+  m_Shader: {fileID: 4800000, guid: 9f99cda1814c1cf47b897ccb59b8138a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2aef8afc40fe3b848b6906a157aa742b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: 6e187e583486ca543acfb0b9d8bbaa8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_01:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 2800000, guid: 6e187e583486ca543acfb0b9d8bbaa8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e73da1081bab94b4eb361a3eae7f865e, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 2315041381f2b614a92aaeeb974cd4ba, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _Dissolve: 0
+    - _Dissolve2: 0
+    - _DissolvedRange: 0.47
+    - _DissolvedSize: 17.4
+    - _DissolvedSpeed: 0.08
+    - _DissolvedSpeed0: 0.27
+    - _DissolvedSpeed1: 0
+    - _Float0: 0.29
+    - _Float1: 0
+    - _Float3: 0
+    - _Float5: 3.43
+    - _Float6: 0
+    - _Int0: 5
+    - _Int1: 0
+    - _ReceiveShadows: 1
+    - _seed: 3
+    - _seed0: 0
+    - _seed1: 3.07
+    m_Colors:
+    - _BaseCol: {r: 0.49411765, g: 0.88235295, b: 0.8352941, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 0, g: 1, b: 0, a: 0}
+    - _seed0: {r: 5, g: 1, b: 0, a: 0}
+    - _seed2: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

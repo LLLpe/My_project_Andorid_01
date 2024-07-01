@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HalfTone_ASE
+  m_Shader: {fileID: 4800000, guid: 833b08461c22f1d43b3b678468da2fd2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Anchor: 0
+    - _Area01: 1
+    - _DarkControl: 6.01
+    - _DarkControl1: 1.21
+    - _DarkControl2: 5.9
+    - _Float10: 6.84
+    - _GLoss: 0.194
+    - _HIghtLightControl: 0.82
+    - _HighLightEdge: 0.215
+    - _HighLightSize: 0.2
+    - _HighSize: 0.9
+    - _LOffset: 0
+    - _Length: 0.19
+    - _Length03: 11.4
+    - _MidControl: 0.66
+    - _MidSize: 0
+    - _MidToneEdge: 0.14
+    - _MidToneSize: 0.2
+    - _OffSet01: 6.23
+    - _OffSet02: 3.72
+    - _PhongPercent: 0.15
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotator: 2.46
+    - _SIze02: 2.34
+    - _ShadowClamp: 0.93
+    - _ShadowEdge: 0.261
+    - _ShadowSize: 1.32
+    - _Size01: 1
+    - _Size03: 0.75
+    - _Spe: 0
+    - _Spec: 0.943
+    - _SpecularPower: 2
+    - _Step: 0.5
+    - _TIlling: 20
+    - _Test: 0
+    - _Time11: -0.03
+    - _shrink01: 20
+    - _shrink02: 10.3
+    - _shrink03: 4.8
+    m_Colors:
+    - _BaseCol: {r: 0.5568628, g: 0.0038980222, b: 0.05452104, a: 0}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color2: {r: 0.49411762, g: 0.07450927, b: 0.45882356, a: 1}
+    - _Color3: {r: 0.9716981, g: 0.7274417, b: 0.66460484, a: 0}
+    - _Color4: {r: 1, g: 0, b: 0, a: 0}
+    - _Color5: {r: 0, g: 1, b: 0, a: 0}
+    - _Color6: {r: 0, g: 0, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TestColor1: {r: 0, g: 0, b: 1, a: 0}
+    - _TestColor2: {r: 0, g: 1, b: 0, a: 0}
+    - _TestColor3: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

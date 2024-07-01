@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pixel_ASE
+  m_Shader: {fileID: 4800000, guid: 9f99cda1814c1cf47b897ccb59b8138a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: e73da1081bab94b4eb361a3eae7f865e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: c46e5887c651a48499d93da7d0139c69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 0f1891746c8c7cb4e9f696354379700b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 1c798d83295d45149a5b66af25b497be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: 0f1891746c8c7cb4e9f696354379700b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_01:
+        m_Texture: {fileID: 2800000, guid: 0f1891746c8c7cb4e9f696354379700b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 2800000, guid: 6e187e583486ca543acfb0b9d8bbaa8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 2800000, guid: 9cca528fc2b397e4bb9581f97c60fc98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: 21de4dbae3faa724a94be5964984d78f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkTex:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap01:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarMap02:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 663cac05b46702a43a33b5f6ce2ebd19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 0f1891746c8c7cb4e9f696354379700b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _fangkuai:
+        m_Texture: {fileID: 2800000, guid: a6ab19bd9461f0145aad538ffacf783d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1.42
+    - _AlphaCutoff: 0.5
+    - _Dissolve: 0.2543915
+    - _Dissolve2: -0.3193591
+    - _DissolveBalance: 0
+    - _DissolveIntensity: 5.900629
+    - _DissolvePower: 1.5613028
+    - _DissolveTail: 0.445615
+    - _DissolvedRange: 0.47
+    - _DissolvedSize: 17.4
+    - _DissolvedSpeed: 0.08
+    - _DissolvedSpeed0: 0.27
+    - _DissolvedSpeed1: 0
+    - _Float0: 0.29
+    - _Float1: 1
+    - _Float2: 1
+    - _Float3: 0
+    - _Float5: 3.43
+    - _Float6: 0
+    - _FresnelPower: 2
+    - _FrsnelIntensity: 0.587
+    - _Int0: 5
+    - _Int1: 0
+    - _Light: 1
+    - _MaskGIntensity: 0.7623418
+    - _MatcapAlpha3: 1
+    - _PxlEdge: -0.04
+    - _ReceiveShadows: 1
+    - _ReflectIntensity: 0.571
+    - _StarIntensity: 5.8
+    - _StarPower: 3.5
+    - _seed: 3
+    - _seed0: 0
+    - _seed1: 3.07
+    m_Colors:
+    - _BaseCol: {r: 0.427451, g: 0.9803922, b: 0.9803922, a: 1}
+    - _EdgeCol: {r: 0.3317462, g: 0.990566, b: 0.8163241, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondCol: {r: 0, g: 0, b: 0, a: 0}
+    - _Speed: {r: -1, g: 0, b: 0, a: 0}
+    - _StarCol: {r: 2.639016, g: 2.639016, b: 2.639016, a: 0.003921569}
+    - _StarTillingSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _seed0: {r: 1, g: 1, b: 0, a: 0}
+    - _seed1: {r: 1, g: 1, b: 0, a: 0}
+    - _seed2: {r: 9.43, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

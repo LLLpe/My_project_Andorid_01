@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HHair_01587_02
+  m_Shader: {fileID: 4800000, guid: 7ca3a09a8ba0b004b89a8b1000aeeca1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Specularglitter:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiamondMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiamondNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmiTex:
+        m_Texture: {fileID: 2800000, guid: 49584926ffcb8cc458409478e8ffa10c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: 49584926ffcb8cc458409478e8ffa10c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmssionMap:
+        m_Texture: {fileID: 2800000, guid: 49584926ffcb8cc458409478e8ffa10c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FabricMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairHighlightShiftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairHighlightSpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceFresnelLut:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainMap:
+        m_Texture: {fileID: 2800000, guid: 4721d0c4770feb3459f785b5140f6bfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4721d0c4770feb3459f785b5140f6bfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise01:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 66dee0e8080bbcf4d84f0a07cfd12c34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PreFilterEnvSpecularMap:
+        m_Texture: {fileID: 8900000, guid: 8853623e6257af740a9d898a34dae87f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAMap:
+        m_Texture: {fileID: 2800000, guid: dc6124abbcf062044b497a4276693e0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 29317c49dd4d5da4a8f49cbb1778aa48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShiningMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarryMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VoronoiMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VoronoiMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - GlitterMetallic: 1
+    - GlitterRoughness: 0.5
+    - SpecularAlphaScale: 0
+    - SpecularIntensity: 1
+    - Specularcontrast: 1
+    - Specularpower: 1.5
+    - _ACES_A: 1
+    - _ACES_B: 0
+    - _ACES_C: 0
+    - _ACES_D: 1
+    - _ACES_E: 0
+    - _AOMul: 1
+    - _AdvDissolve: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaMaskToggle: 0
+    - _Ambient: 0
+    - _AmbientPower: 1
+    - _AnisotropyScale: 0
+    - _AnisotropyShift: 0
+    - _AnisotropyToggle: 0
+    - _ArtistMode: 0
+    - _BackAnisotropyShift: 0
+    - _BackRotation: 0
+    - _BlendMode: 0
+    - _BloomToggle: 0
+    - _BrightnessEdgePow: 2
+    - _BrightnessLerp: 1
+    - _BrightnessNoise: 1
+    - _Bump: 0.3
+    - _ClipOffset: 0
+    - _ClipToggle: 0
+    - _ColorClamp: 12
+    - _CullMode: 2
+    - _CustomHDR: 0
+    - _Cutoff: 0.5
+    - _DefaultSMToggle: 1
+    - _DetailAOScale: 1
+    - _DetailAlbedoReplace: 0
+    - _DetailAlbedoScale: 1
+    - _DetailAlpha: 1
+    - _DetailEmissionScale: 0
+    - _DetailExposure: 1
+    - _DetailMaskPower: 1
+    - _DetailMaskScale: 1
+    - _DetailMaskType: 0
+    - _DetailMetallicScale: 1
+    - _DetailNormalScale: 1
+    - _DetailRoughnessScale: 0
+    - _DetailTangentOffset: 1
+    - _DetailTangentOffset2: 1
+    - _DetailTangentScale: 1
+    - _DetailTangentScale2: 1
+    - _DetailTile: 1
+    - _DetailTile2: 1
+    - _DetailTile3: 1
+    - _DetailTile4: 1
+    - _DetailToggle: 0
+    - _DetailUV3Toggle: 0
+    - _DetailUVPadding: 0.0015
+    - _DiamondBlendPower: 1
+    - _DiamondMaskIntensity: 1
+    - _DiamondNormalScale: 1
+    - _DiamondUV3Toggle: 0
+    - _DiamondsDirectDiffuse: 1
+    - _DiamondsDirectSpecular: 1
+    - _DiamondsInDirectDiffuse: 1
+    - _DiamondsInDirectSpecular: 1
+    - _DiamondsOutLineIntensity: 1
+    - _DiamondsTexOutLineMulit: 5
+    - _DiamondsTexOutLineSet: 1.5
+    - _DiamondsTexOutPow: 1
+    - _DirCameraSpecular: 0
+    - _DirLightFixed: 0
+    - _DirLightFixedY: 0
+    - _DirLightType: 0
+    - _DirectDiffuse: 1
+    - _DirectSpecular: 1
+    - _DissolveAdd: 0
+    - _DissolveAlphaToggle: 1
+    - _DissolveEdgeColorIntensity: 1
+    - _DissolveEdgeWidth: 0.25
+    - _DissolveFresnel: 0
+    - _DissolveFresnelEdgePow: 2
+    - _DissolveFresnelPow: 2
+    - _DissolveOffset: 0
+    - _DissolveProgress: 0
+    - _DissolveSphereToggle: 0
+    - _DissolveTiling: 1
+    - _DistanceScale: 0
+    - _DstBlend: 0
+    - _EffectParallaxDepht: 1
+    - _EffectParallaxMulit: 1
+    - _EffectTexColorMulit: 1
+    - _EffectTexOffsetU: 0.1
+    - _EffectTexOffsetV: 0
+    - _Emi: 3
+    - _EmissionOn: 1
+    - _EmissiveDebug: 1
+    - _EnvAverageBrightness: 0.001
+    - _EnvDiffuse: 1
+    - _EnvIndirect: 0
+    - _EnvRotation: 0
+    - _EnvSpecular: 1
+    - _FabricClampMax: 1
+    - _FabricClampMin: 0
+    - _FabricTightness: 1
+    - _FabricToggle: 0
+    - _FakeGlitter: 0.02
+    - _FinalMixMulit: 0
+    - _FinalPower: 2
+    - _FirstIceDepthPower: 2
+    - _FirstIceDepthScale: 0.24
+    - _FirstParallaxDistance: 0.236
+    - _FirstParallaxSteps: 1
+    - _FlakeToggle: 0
+    - _FresnelAddToggle: 1
+    - _FresnelAlphaToggle: 1
+    - _FresnelClampMax: 1
+    - _FresnelClampMin: 0
+    - _FresnelIntensity: 1
+    - _FresnelTightness: 4
+    - _FresnelToggle: 0
+    - _FrsnelPower: 1
+    - _FxUSpeed: 1
+    - _FxVSpeed: 1
+    - _Gamma: 0.45454544
+    - _GlitterContrast: 1.5
+    - _GlitterIntensity: 0.05
+    - _GlitterPower: 2
+    - _GlitteryDotMaskSscale: 2.5
+    - _GlitterySpeed: 0.5
+    - _HairHighlightToggle: 0
+    - _Height1: 0
+    - _Height2: -1
+    - _HighlightShift: 0
+    - _HighlightSpread: 1
+    - _IceFresnelPower: 0
+    - _IceMaskScale: 1
+    - _IceToggle: 0
+    - _InvertFresnel: 0
+    - _IridescenceFresnelLutPower: 1
+    - _IridescenceFresnelLutPower2: 1
+    - _IridescenceFresnelLutTile: 2
+    - _IridescenceFresnelLutTile2: 3
+    - _IridescenceFresnelScale: 1
+    - _IridescenceFresnelScale2: 0
+    - _IridescenceMask: 1
+    - _IridescenceShift: 0
+    - _IridescenceThickness: 0.5
+    - _IridescenceThicknessPower: 1
+    - _IridescenceThicknessScale: 1
+    - _IridescenceToggle: 0
+    - _LighingModel: 0
+    - _LuminanceMinAlpha: 1
+    - _MainLightToggle: 1
+    - _MaskAdjust: 1
+    - _MaskDistance: 1
+    - _MaskThickness: 1
+    - _MaterialType: 0
+    - _MaxIntensity: 10
+    - _MetallicMul: 1
+    - _MixingScaleBiasAndLargestWeightX: 0
+    - _MixingScaleBiasAndLargestWeightY: 0
+    - _Need_ACES_1: 0
+    - _Need_Diamond: 0
+    - _Noise01ScrollSpeed: 0.25
+    - _Noise01Tiling: 1
+    - _NoiseDistortionPower: 1
+    - _NoiseDisturFr: 10.69
+    - _NoiseDisturIntensity: 1
+    - _NoiseDisturSpeed: 3
+    - _ParallaxGlitter: 0
+    - _ParallaxGlitterUV3Toggle: 0
+    - _ParallaxMulit: 1
+    - _ParallaxNormalWarp: 0
+    - _ParallaxTexInOut: 0
+    - _ParallaxTexTiling: 5
+    - _ProbPower: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampCount: 2
+    - _RampToggle: 0
+    - _ReflectPower: 1
+    - _Rotation: 0
+    - _RoughnessMul: 1
+    - _SecondAnisotropyScale: 0
+    - _SecondAnisotropyShift: 0
+    - _SecondBackAnisotropyShift: 0
+    - _SecondBackSpecRotation: 0
+    - _SecondCamDiffuse: 0
+    - _SecondCamSpec: 0
+    - _SecondDiffuseToggle: 0
+    - _SecondDirectToggle: 1
+    - _SecondEnvToggle: 0
+    - _SecondFixed: 0
+    - _SecondIceDepthLerp: 0.4
+    - _SecondIceDepthPower: 10
+    - _SecondIceDepthScale: 0
+    - _SecondParallaxDistance: 0.5
+    - _SecondParallaxHeight: 8.8
+    - _SecondParallaxScale: 0.001
+    - _SecondParallaxSteps: 1
+    - _SecondParallaxTiling: 0.85
+    - _SecondSpecRotation: 0
+    - _SecondSpecRoughness: 1
+    - _SecondSpecToggle: 0
+    - _ShiningPower: 1
+    - _SparkHue: 0
+    - _SparkSpec: 1
+    - _SparkleStep01: 0.3
+    - _SparkleToggle: 0
+    - _SpecMaskScale: 0.5
+    - _SpecularGloss: 100
+    - _SpecularMaskScale: 1
+    - _SpecularMul: 0.5
+    - _SpecularPower: 1
+    - _SprkleVornojOffset: 1
+    - _SprkleVornojScale: 1
+    - _SprkleVornojStrength: 11.44
+    - _SrcBlend: 1
+    - _Starry1Spec: 1
+    - _Starry1Speed: 0.5
+    - _Starry1Tilling: 2
+    - _Starry2Spec: 1
+    - _Starry2Speed: 0.2
+    - _Starry2Tilling: 3
+    - _StarryHue: 0
+    - _StarryPower: 20
+    - _TangentRotateType: 0
+    - _TimeOffset: 9.2
+    - _TimeSpeed: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistort: 0.1
+    - _TransScattering: 2
+    - _Translucency: 1
+    - _TwoSideLigthing: 0
+    - _VoronoiBump: 1
+    - _VoronoiGlitter: 0
+    - _VoronoiMetallic: 1
+    - _VoronoiPower: 2
+    - _VoronoiRoughness: 0
+    - _VoronoiThreshold: 0.6
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _shinOffset: 1
+    - _shinfreq: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Brightness: {r: 1, g: 1, b: 1, a: 1}
+    - _BrightnessEdge: {r: 0, g: 0, b: 0, a: 1}
+    - _BrightnessTimeSpeed: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiamondRMA: {r: 1, g: 1, b: 1, a: 0}
+    - _DiamondsTexOutColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _DirLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DirLightColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _DirLightDir: {r: 0, g: 0.3420202, b: 0.9396927, a: 1}
+    - _DirLightDir2: {r: 0, g: 0.3420202, b: 0.9396927, a: 1}
+    - _DirLightOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _DirSpecColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _DirSpecColorTint2: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveEdgeColor: {r: 1, g: 1, b: 0, a: 1}
+    - _DissolveFresnelColorEdge: {r: 0, g: 0, b: 0, a: 1}
+    - _DissolveFresnelColorIn: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveFresnelColorOut: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EffectTexColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FinalMixColor: {r: 1.5, g: 0, b: 0, a: 1}
+    - _FlakeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlakePack0: {r: 425, g: 0.2, b: 0.02, a: 18}
+    - _FresnelColorInside: {r: 1, g: 1, b: 1, a: 0}
+    - _FresnelColorOutside: {r: 1, g: 1, b: 1, a: 1}
+    - _FxColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IceDepthColor: {r: 0, g: 0, b: 0, a: 0}
+    - _IceFresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ParallaxDepthRGB: {r: 1, g: 2, b: 3, a: 0}
+    - _RampColor0: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _RampColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _RampColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SHAb: {r: -0.02196122, g: 0.6107956, b: 0.4768713, a: 0.7154314}
+    - _SHAg: {r: -0.02785405, g: 0.505744, b: 0.399958, a: 0.6157191}
+    - _SHAr: {r: -0.03201851, g: 0.4769494, b: 0.3944305, a: 0.5887253}
+    - _SHBb: {r: -0.006100736, g: 0.3555428, b: 0.03088856, a: 0.006082096}
+    - _SHBg: {r: 0.001763643, g: 0.2906528, b: 0.0128067, a: 0.003389634}
+    - _SHBr: {r: -0.007322371, g: 0.2831941, b: 0.01082472, a: 0.001763643}
+    - _SHC: {r: -0.002611609, g: -0.009659435, b: -0.0190339, a: 1}
+    - _SH_0: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_1: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_2: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_3: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_4: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_5: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_6: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_7: {r: 0, g: 0, b: 0, a: 0}
+    - _SH_8: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondDiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDiffuseColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDiffuseOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _SecondDirectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDirectColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDirectDir: {r: 0, g: 0.5000001, b: 0.8660256, a: 1}
+    - _SecondDirectDir2: {r: 0, g: 0.5000001, b: 0.8660256, a: 1}
+    - _SecondDirectOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _SecondEnvColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Starry1Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Starry2Color: {r: 1, g: 1, b: 1, a: 0}
+    - _StartPosition: {r: 0, g: 1, b: 0, a: 1}
+    - _VoronoiGlitterColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

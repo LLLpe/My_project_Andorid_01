@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sparkle02
+  m_Shader: {fileID: 4800000, guid: 099e8ece32648834c9f2788933cd6fe3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 0aed5b03188bbfc4a902a638cdc691a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gloss:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f00d525535624db4c880ab69fc52efaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 008a83dff65ad174788ef4a64dac79e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex_base:
+        m_Texture: {fileID: 2800000, guid: 7f539dc66fadd30478b14aa2943140f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 36cb06f2b74b3e84e9370d16a7bebc9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyTex:
+        m_Texture: {fileID: 2800000, guid: 66ca95344d24c594a944c46523edb8a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpakleMask:
+        m_Texture: {fileID: 2800000, guid: c47953c315138814c9cf1c0f39ab58df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkTex_base:
+        m_Texture: {fileID: 2800000, guid: 7f539dc66fadd30478b14aa2943140f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkTex_second:
+        m_Texture: {fileID: 2800000, guid: 4d338736dec3e27489089bcbb41ae3c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - SparklePower: 1
+    - SparklePower0: 1
+    - _CubemapMip: 7
+    - _DiffsparkleRate: 1
+    - _EnvDiffInt: 0.3
+    - _EnvSpecInt: 0.2
+    - _FresnelPow: 1
+    - _Gloss: 1
+    - _Gloss_Detail: 2.36
+    - _HeightFactor: 0.5
+    - _NoiseSize: 4
+    - _NoiseSize0: 4
+    - _NoiseSize2: 2
+    - _RimIntensity: 1.4
+    - _RimPower: 3.3
+    - _RimsparkleRate: 200
+    - _ShiningSpeed: 0.8
+    - _ShiningSpeed0: 0.4
+    - _SkyDistort: 1
+    - _SkySize: 0.44
+    - _SkySpeed: 0.3
+    - _Skyint: 0.61
+    - _SpakleClamp: 0.97
+    - _SparkleArea: 0.5
+    - _SparklePower: 1
+    - _SparklePower0: 1
+    - _SpecPow: 90
+    - _Specular: 0.5
+    - _Specular_Detail: 10
+    - _Specular_Sparkle: 20
+    - _diffsparkleRate: 1
+    - _rimsparkleRate: 1
+    - _sparkleArea: 0.87
+    - _specsparkleRate: 20
+    m_Colors:
+    - _RimColor: {r: 0.10030261, g: 0.4339623, b: 0.42629194, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SparkleColor: {r: 0.740566, g: 1, b: 0.97346306, a: 1}
+    - _SparkleColor0: {r: 17.148375, g: 17.148375, b: 17.148375, a: 1}
+    - _SparkleColor1: {r: 0.21226418, g: 1, b: 1, a: 1}
+    - _SparkleColor2: {r: 0.4764151, g: 0.8567029, b: 1, a: 1}
+    - _SparkleColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.6273585, g: 1, b: 0.95876455, a: 1}
+  m_BuildTextureStacks: []

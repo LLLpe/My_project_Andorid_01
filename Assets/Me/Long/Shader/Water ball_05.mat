@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water ball_05
+  m_Shader: {fileID: 4800000, guid: 33c6787ae14473a47b839dd0d5db2787, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _299bump:
+        m_Texture: {fileID: 2800000, guid: e5b3535d5b367844bb210eb4732ee267, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseCol:
+        m_Texture: {fileID: 2800000, guid: a3e5d28d21608c3468a3b8695da89017, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: 1f88db35b40f1534c9d4657bb1b0ffde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion2Map:
+        m_Texture: {fileID: 2800000, guid: bace8da7f91a4fd49b85a51696fda9c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: bace8da7f91a4fd49b85a51696fda9c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowColor:
+        m_Texture: {fileID: 2800000, guid: ca6391351105f3f47aaccbf0a67fb942, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowColor2:
+        m_Texture: {fileID: 2800000, guid: fb3e56c93e9e8d2478f60eccd13d5262, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 2803bcc4f7879ec4e950a20ce708ae54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalFlow:
+        m_Texture: {fileID: 2800000, guid: 2803bcc4f7879ec4e950a20ce708ae54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset2:
+        m_Texture: {fileID: 2800000, guid: 61078a8fce443254aa24c8f3af2a44a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset4:
+        m_Texture: {fileID: 2800000, guid: 61078a8fce443254aa24c8f3af2a44a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OffsetTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplashDistort:
+        m_Texture: {fileID: 2800000, guid: 61078a8fce443254aa24c8f3af2a44a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 77605dd9dae0ef44f96bf18a8afdad73, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 1f88db35b40f1534c9d4657bb1b0ffde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMap:
+        m_Texture: {fileID: 2800000, guid: e5b3535d5b367844bb210eb4732ee267, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _splashMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.8
+    - _Alpha2: 0.846
+    - _AlphaCutoff: 0.5
+    - _AlphaIntensity: 1
+    - _AlphaIntensity2: 0.03
+    - _Blend: 1
+    - _Distortion1Intensity: 1
+    - _Distortion2Intensity: 1
+    - _DistortionIntensity: 1.5
+    - _Float1: 0.36
+    - _Float3: 0.04
+    - _FlowColor2Intensity: 0.29
+    - _FlowColorAlpha: 2.13
+    - _FlowColorIntensity: 0.2
+    - _FlowColorIntensity1: 0.3
+    - _Fresnel2Intensity: 5
+    - _Fresnel2Power: 0.66
+    - _FresnelIntensity: 2.06
+    - _FresnelPower: 0.8
+    - _Gradient: 0
+    - _MapOffsetTimeZoomer: 0
+    - _NormalSpeed: 0.1
+    - _NormalTiling: 2
+    - _OffsetIntensity: 1
+    - _OffsetIntensity1: 1
+    - _ReceiveShadows: 1
+    - _SplashDitortIntensity: 0
+    - _SplashDitortSpeed: 0.2
+    - _V_B_DitortIntensity: 1
+    - _VertexOffset: 0.03758043
+    - _VertexOffset1: 0.02
+    - _VertexOffsetFactor: 0
+    - _VertexOffsetScrollSpeed: 0.5
+    - _VertexOffsetScrollSpeed2: 0.54
+    - _VertexOffsetTimeZoomer: 1
+    - _VertexShrink: 0
+    - _Vertex_G: 0
+    - __dirty: 0
+    m_Colors:
+    - _BlendCol: {r: 0, g: 0, b: 0, a: 0}
+    - _Color0: {r: 0.246707, g: 0.57734656, b: 0.8301887, a: 0}
+    - _Distortion1TilingSpeed: {r: 1, g: 1, b: -0.1, a: 0}
+    - _Distortion2TilingSpeed: {r: 1, g: 5, b: -0.2, a: 0}
+    - _DistortionTilingSpeed: {r: 1, g: 1, b: -0.1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowColor2Intensity: {r: 0.6084906, g: 0.62691444, b: 1, a: 0}
+    - _FlowColor2TilingSpeed: {r: 1.5, g: 2, b: -0.1, a: 0}
+    - _FlowColorTilingSpeed: {r: 0.3, g: 0.4, b: -0.58, a: 0}
+    - _FlowColorTilingSpeed1: {r: 0.2, g: 0.2, b: 0.1, a: 0.2}
+    - _Fresnel2Col: {r: 0.6167675, g: 0.7046101, b: 0.7924528, a: 0}
+    - _FresnelCol: {r: 0.44139317, g: 0.6499421, b: 0.8584906, a: 0}
+    - _NoiseOffset: {r: 0.7, g: 0.51, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _NoiseTilingSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalSpeed: {r: 0, g: 0.5, b: 0, a: 0}
+    - _NormalTilingSpeed: {r: 1, g: 1, b: -0.1, a: 0}
+    - _OffsetSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetSpeed1: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetTiling1: {r: 1, g: 1, b: 0, a: 0}
+    - _SplashDitortSpeed: {r: 0, g: 1.38, b: 0, a: 0}
+    - _TilingSpeed: {r: 0.5, g: 0.5, b: 0, a: 0.5}
+    - _Vector1: {r: 0.09, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0.14, g: 0, b: 1.28, a: 0}
+    - _VertexOffsetTilling: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

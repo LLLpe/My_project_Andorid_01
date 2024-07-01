@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: fe46ba48f5129d74fb00ea5b49f2deef
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _StarMap01: {fileID: 2800000, guid: 294a7782d8c0b2b4d83008cc98071755, type: 3}
+  - _NormalMap: {fileID: 2800000, guid: 72eb5e6f6b07bfa4fadcbfb0079fcf17, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

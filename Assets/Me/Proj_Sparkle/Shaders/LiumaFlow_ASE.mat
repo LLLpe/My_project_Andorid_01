@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LiumaFlow_ASE
+  m_Shader: {fileID: 4800000, guid: 74234817fb77fcc47b8ac9918bfc321b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DiffueMap:
+        m_Texture: {fileID: 2800000, guid: 2c5e575035406de4a897b53f0a73d083, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: 357516955bc394d489bf350347f0cf95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _M2Tex:
+        m_Texture: {fileID: 2800000, guid: c085e041c59c9df44bd2214b6fb030a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MipTex:
+        m_Texture: {fileID: 2800000, guid: e4b38866534f2ca44a2e09b37542955a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MipTex2:
+        m_Texture: {fileID: 2800000, guid: 5a2ea22e317b953499a036eb0e18e0b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.7, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: a26bfdd73e091e949a32a0c695ec59e6, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 72eb5e6f6b07bfa4fadcbfb0079fcf17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 2800000, guid: 62f702209b1753f4ba92f016958321c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: 329a792ec57d56b42b61b6c449e42c32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _sarMask:
+        m_Texture: {fileID: 2800000, guid: b53442abb3d2515429241e135dc04253, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Amount: 0.94
+    - _Depthstep1: 0
+    - _Depthstep2: 3.8
+    - _Depthstep3: 10.9
+    - _DieValue01: 1
+    - _DieValueLight: 3.48
+    - _DieValueSpeed: 1
+    - _Float21: 1
+    - _Float22: 5
+    - _Float36: 1
+    - _Float37: 1
+    - _Float38: 1
+    - _Float56: 1
+    - _Float58: 0
+    - _Flowspeed01: 1
+    - _Flowspeed02: 1
+    - _Frequency: 0.3
+    - _FresnelPower: 1.4
+    - _FrsnelIntensity: 0.321
+    - _Int: 1
+    - _Layer01Reflect: 6.2
+    - _MainColorPower: 0.6
+    - _MipSpeed: 0
+    - _MipSpeed2: 0
+    - _NoiseScale: 34.42
+    - _NormalOffset: 0
+    - _PixSize: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampIntensity: 1
+    - _ReflectPower: 0.3
+    - _SparkleColorInt: 2
+    - _SparkleColorLayer01: 1
+    - _SparkleColorLayer0203: 1
+    - _SparkleIntensity: 0.64
+    - _SparklePower: 0.57
+    - _SpeColor: 10
+    - _SpePower: 3.3
+    - _SpecularGloss: 100
+    - _SpecularPower: 1
+    - _SprkleSpeed01: 0.01
+    - _SprkleSpeed02: 0.05
+    - _SprkleSpeed03: 0.1
+    - _Step: 0.41
+    - _Step01: 0.3
+    - _Step02: 0.3
+    - _Step03: 0.3
+    - _TwirlStrength: 10
+    - _ViewOffset: 1
+    - _aa: 1
+    - _bbb: 0
+    - _depthstep1: 1
+    - _depthstep2: 3
+    - _dieValueLight: 1
+    - _dieValueLight2: 1
+    - _dieValueSpeed: 1
+    - _dieValueSpeed2: 1
+    - _flowspeed01: 1
+    - _flowspeed3: 1
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkleColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

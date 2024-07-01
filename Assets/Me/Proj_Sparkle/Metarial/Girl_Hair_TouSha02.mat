@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Girl_Hair_TouSha02
+  m_Shader: {fileID: 4800000, guid: a124bb2a23bfa934f844e73d94e0f0f9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USEUV3_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 2800000, guid: 04ab20ef92fadf04a9bcfa7ce5487f98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMap:
+        m_Texture: {fileID: 2800000, guid: e4b38866534f2ca44a2e09b37542955a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffueMap:
+        m_Texture: {fileID: 2800000, guid: 2687fd4b37a7ae34083af1e39b5e5a40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter01Tex:
+        m_Texture: {fileID: 2800000, guid: 294a7782d8c0b2b4d83008cc98071755, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter02Tex:
+        m_Texture: {fileID: 2800000, guid: a26bfdd73e091e949a32a0c695ec59e6, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _Glitter03Tex:
+        m_Texture: {fileID: 2800000, guid: f52b9f89907516d4a88a9f2f3f8e8dcb, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: c23846571aec4cb8b088b183a889a9d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: e1400240a6afe1a4d91cfc33c8b8b924, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 2800000, guid: 329a792ec57d56b42b61b6c449e42c32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c4e1b1fa108b8f8449de091b31d043d9, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _sarMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0.646
+    - _AlphaCutoff: 0.5
+    - _Alphaweight: 1
+    - _Alphaweight1: 1
+    - _Dissolve: 0.89
+    - _FresnaelPower: 5.87
+    - _Glitter01FlowSpeed: 1
+    - _Glitter01FresnelArea: 1
+    - _Glitter01Height: 0
+    - _Glitter01Hue: 0.038
+    - _Glitter01Intensity: 65
+    - _Glitter01OffsetSpeed: 0.3
+    - _Glitter01Power: 1
+    - _Glitter02FlowFreq: 1
+    - _Glitter02FresnelArea: 1
+    - _Glitter02Power: 4.84
+    - _Glitter02Tilling1: 2
+    - _Glitter02shinFreq: 0.211
+    - _Glitter03Height: -4
+    - _Glitter03Intensity: 0.485
+    - _GlitteryDotMaskSscale: 1
+    - _Height1: -2
+    - _NoiseScale: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReflectPower: 0.191
+    - _ScaleU: 0.07
+    - _ScaleV: 10
+    - _SpecularGloss: 100
+    - _SpecularPower: 0.1
+    - _StarryHue: 0.149
+    - _UseUV3: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelCol: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
+    - _Glitter01Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Glitter02Color: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 0.8553459, g: 0.8553459, b: 0.8553459, a: 0}
+    - _Tint: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 0}
+  m_BuildTextureStacks: []

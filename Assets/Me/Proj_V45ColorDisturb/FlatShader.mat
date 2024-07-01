@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlatShader
+  m_Shader: {fileID: 4800000, guid: 19cf666e750ed234c85f43cc404fc313, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _AllOffset _Float7
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 94ab701356a2f5b4b8d61d90dc7a302d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaInt: 1
+    - _AlphaStep: 0.372
+    - _Float10: 1
+    - _Float7: 0.87
+    - _Float8: 0.59
+    - _Float9: 0
+    - _Lerp: 0
+    - _NoiseInt: -1.13
+    - _PosOS: 2.28
+    - _PosOS_X: 0.4
+    - _PosOS_Z: 1.86
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Speed: 0.3
+    - _UVOffset: 0
+    - _VPosReMap: 3
+    - _ViewOffset: 1.44
+    - _ViewOffset2: 0.381
+    - __dirty: 0
+    m_Colors:
+    - _AllOffset: {r: 0, g: 0, b: -0.15, a: 0}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _Color1: {r: 1.2578614, g: 0, b: 0.44782498, a: 0}
+    - _Color2: {r: 0, g: 0.7702121, b: 2.9960785, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _UVScale: {r: 0, g: 0.75, b: 0, a: 0}
+    - _UvOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _VertexOffsetDir: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

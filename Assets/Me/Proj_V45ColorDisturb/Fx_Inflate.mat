@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fx_Inflate
+  m_Shader: {fileID: 4800000, guid: 3f0707f4f0de3314aa70bc23573b2829, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColorNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 6b41e1df476c8cc4689535beac2e1ccb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient11:
+        m_Texture: {fileID: 2800000, guid: 2315041381f2b614a92aaeeb974cd4ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: ae05a66d64c867644b368c9aa76e6fbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.76, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 2800000, guid: 10c8833c53acc224cae79c276f7882dc, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _Noise3:
+        m_Texture: {fileID: 2800000, guid: e429a98d611d3894c86482d55a96ba19, type: 3}
+        m_Scale: {x: 6, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 10c8833c53acc224cae79c276f7882dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _XNoise:
+        m_Texture: {fileID: 2800000, guid: 80ae5581a0c64fc4d97d5a9724572e94, type: 3}
+        m_Scale: {x: 1, y: 4.69}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphYOffset: 0.96
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaHard: 0.07
+    - _AlphaNdotVSwitch: 1
+    - _AlphaNdotVWeight: 1
+    - _AlphaX: 0.791
+    - _AlphaY: 2.72
+    - _AlphaY2: 10
+    - _ColorNoiseSpeed: 1
+    - _Depth: 1.16
+    - _Float2: 0
+    - _GradientIntensity: 1
+    - _GradientNoiseInt: 0.311
+    - _InflateIntensity: 0.293
+    - _InflateZSS: 1
+    - _LineIntensity: 0.061
+    - _LineNum: 2
+    - _LineSpeed: -1
+    - _LineWidth: 0.01
+    - _NdotVPow: 1.03
+    - _NdotVPow2: 1.52
+    - _Noise2Speed: 0.5
+    - _Noise2Weight: 0.955
+    - _NoiseIntensity: 0.14
+    - _Phase: 2
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _UVOSScale: 4.56
+    - _ViewOffset: 0.16
+    - _XNoiseIntensity: 0.1
+    - _XOffsetIntensity: 0.1
+    - _XOffsetSpeed: 1
+    - _blink: 0
+    m_Colors:
+    - _AlphaClipDir: {r: 1, g: 0, b: 0, a: 0}
+    - _Color1: {r: 0, g: 0.27795434, b: 1.498039, a: 0}
+    - _Color2: {r: 1, g: 0, b: 0.90580225, a: 0}
+    - _ColorNoise: {r: 0, g: 0.69, b: 0, a: 0}
+    - _ColorNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DirSS: {r: 0, g: 0, b: 0.43, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InflateDir: {r: 0, g: 0, b: 0, a: 0}
+    - _LineDir: {r: 0, g: 0, b: 2.3, a: 0}
+    - _Noise2Dir: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseDir: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _RB_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _UVScale: {r: 1, g: 4, b: 0, a: 0}
+    - _VertexDir: {r: 0.29, g: 0, b: 0.29, a: 0}
+    - _XNoiseSpeed: {r: 0, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []

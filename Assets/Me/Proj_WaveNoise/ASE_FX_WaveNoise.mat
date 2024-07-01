@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASE_FX_WaveNoise
+  m_Shader: {fileID: 4800000, guid: d80234eb10d130445aef1887c8f33dc8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 2800000, guid: 71b04b118bffacd488b6b2b6bc73ed68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _DistortMap:
+        m_Texture: {fileID: 2800000, guid: 96b780d75b2ef2242bd5cdd114e2a432, type: 3}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1b5fad0919cdc55479000982d1cb40bb, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: -0.35}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 1b5fad0919cdc55479000982d1cb40bb, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: -0.34}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AlphaIntensity: 50
+    - _AlphaNoise: 0.56
+    - _DistortSrtength: 0.5
+    - _HighLightArea: 1.56
+    - _HighLightFrequency: 18
+    - _HighLightSpeed: 10
+    - _MaskWidth: 0.921
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RollFrequence: 10
+    - _RollIntensity: 0.416
+    m_Colors:
+    - _ColorDark: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorHightLight: {r: 2.9960783, g: 2.9960783, b: 2.9960783, a: 0}
+    - _DistortSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 200, g: 200, b: 0, a: 0}
+  m_BuildTextureStacks: []
