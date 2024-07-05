@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Diagnostics;
 
-public class GitContextMenu : MonoBehaviour
+public class GitContextMenu 
 {
     [MenuItem("Assets/Git/Commit", false, 1)]
     private static void Commit()
@@ -21,6 +21,8 @@ public class GitContextMenu : MonoBehaviour
     {
         ExecuteGitCommand("pull");
     }
+
+  
 
     private static void ExecuteGitCommand(string command)
     {

@@ -1,26 +1,21 @@
-﻿<Project ToolsVersion="Current">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
-  </PropertyGroup>
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Include="Unity" />
-  </ItemGroup>
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <EnableDefaultItems>false</EnableDefaultItems>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <LangVersion>9.0</LangVersion>
-    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+    <ProjectGuid>{E800819B-31FD-B092-F722-D4977DB70A1D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ExternalAttributes.Core</AssemblyName>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -44,22 +39,23 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoStandardLibraries>true</NoStandardLibraries>
-    <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
-    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2022.3.14f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\paxtonliu\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -71,30 +67,30 @@
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\BoxGroupAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\HorizontalLineAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidatorAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\HideIfAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNonSerializedFieldAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\DrawerAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\MetaAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttributeBase.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MaxValueAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNativePropertyAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\Utility\EConditionOperator.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\OnValueChangedAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ICustomAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\LabelAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\Expandable.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\IGroupAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\SpecialCaseDrawerAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\HideIfAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNonSerializedFieldAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MaxValueAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNativePropertyAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\OnValueChangedAttribute.cs" />
+    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\ICustomAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\InfoBoxAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\Utility\EColor.cs" />
-    <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
     <Compile Include="Assets\Quibli\Utils\EditorAttributes\Core\MetaAttributes\FoldoutAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -437,6 +433,14 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@1.0.27\Mono.Posix\Mono.Posix.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@1.0.27\sfw\sfw.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -455,6 +459,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SpoiledCat.Git.Localization">
+      <HintPath>Library\PackageCache\com.spoiledcat.git@1.0.27\Localization\SpoiledCat.Git.Localization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -965,27 +973,24 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{1D498E65-31D4-210E-BE29-58E5EBFFA3C3}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{768A3644-0C93-2045-9E67-88BFE60C4960}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
   </ItemGroup>
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Remove="LaunchProfiles" />
-    <ProjectCapability Remove="SharedProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
-    <ProjectCapability Remove="ProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerProjects" />
-    <ProjectCapability Remove="COMReferences" />
-    <ProjectCapability Remove="ReferenceManagerCOM" />
-    <ProjectCapability Remove="AssemblyReferences" />
-    <ProjectCapability Remove="ReferenceManagerAssemblies" />
-  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>

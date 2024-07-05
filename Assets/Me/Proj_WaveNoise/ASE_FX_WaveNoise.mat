@@ -64,19 +64,19 @@ Material:
     - _AlphaCutoff: 0.5
     - _AlphaIntensity: 50
     - _AlphaNoise: 0.56
-    - _DistortSrtength: 0.5
-    - _HighLightArea: 1.56
+    - _DistortSrtength: 0.17
+    - _HighLightArea: 3.3
     - _HighLightFrequency: 18
     - _HighLightSpeed: 10
     - _MaskWidth: 0.921
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RollFrequence: 10
-    - _RollIntensity: 0.416
+    - _RollFrequence: 12
+    - _RollIntensity: 0.379
     m_Colors:
     - _ColorDark: {r: 0, g: 0, b: 0, a: 0}
-    - _ColorHightLight: {r: 2.9960783, g: 2.9960783, b: 2.9960783, a: 0}
-    - _DistortSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _ColorHightLight: {r: 11.181761, g: 11.181761, b: 11.181761, a: 0}
+    - _DistortSpeed: {r: 0, g: 1.4, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Speed: {r: 1, g: 0, b: 0, a: 0}
     - _Vector0: {r: 200, g: 200, b: 0, a: 0}
