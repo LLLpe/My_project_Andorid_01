@@ -54,7 +54,7 @@ Shader "PaxtonLiu/FireHair"
 		HLSLINCLUDE
 		#define GAMMA_TEXTURE
 		#include "Assets/ResForAssetBundles/0BaseCommon/Include/QSM_COLORSPACE_CORE.cginc"
-		#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+		#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 		#include "Assets/ResForAssetBundles/0BaseCommon/Include/QSM_BASE_MACRO.cginc"
 		ENDHLSL
 

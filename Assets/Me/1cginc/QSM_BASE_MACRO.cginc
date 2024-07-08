@@ -1,7 +1,7 @@
 #ifndef QSM_BASE_MACRO
 #define QSM_BASE_MACRO
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"  
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"  
+#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"  
 
 //触发一次shader重新编译
 float4 FAST_MUL_POS(float4x4 M, float3 v)

@@ -5,7 +5,7 @@
 #define  NSS_PBRSCENE_INCLUDED
 
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 #include "../Shaders/NssPBRFog.cginc"
 #include "LocalReflection.cginc"
 //#include "NssLighting.cginc"

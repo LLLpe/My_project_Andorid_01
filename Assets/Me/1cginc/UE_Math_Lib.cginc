@@ -2,7 +2,7 @@
 #define NSS_MATH_FUNC
 
 #include "QSM_COLORSPACE_CORE.cginc"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 		   #include "QSM_BASE_MACRO.cginc"
 
 //===================================================================================================

@@ -1,21 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="Current">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
   </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>9.0</LangVersion>
+    <Configurations>Debug;Release</Configurations>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2F65D8FD-236F-CF6A-9DFC-3492469EFF16}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -39,41 +44,78 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoConfig>true</NoConfig>
+    <NoStandardLibraries>true</NoStandardLibraries>
     <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
-    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
   </PropertyGroup>
   <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2022.3.14f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\paxtonliu\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dShader.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dEditor.cs" />
+    <Compile Include="Assets\Tools\CubemapToEquirectangular\Scripts\CubemapConverter.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dBlendMode.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dSlot.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dEditorWindow.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_Replace.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dCanvas.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPaintableManager.cs" />
     <Compile Include="Assets\Quibli\Scripts\Mesh Generators\FoliageGenerator.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_Decal.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPaintable.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dGroup.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dChannel.cs" />
     <Compile Include="Assets\Quibli\Post Process\Scripts\CompoundRenderer.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dHelper.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dCoordCopier.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dQuad.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dSeamFixer.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_SphereBlur.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_SphereTriplanar.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dMeshAnalysis.cs" />
+    <Compile Include="Assets\Tools\SHCoef\CubemapSHProjector.cs" />
     <Compile Include="Assets\Quibli\Post Process\Scripts\CompoundPass.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dStateManager.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dMaterialCloner.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPaintableTexture.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter.cs" />
+    <Compile Include="Assets\Me\Proj_Code_UnityTool\CreateWindow.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dLinkedBehaviour.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_Fill.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dHelper_Editor.cs" />
     <Compile Include="Assets\Quibli\Post Process\Effects\Scripts\StylizedDetail.cs" />
+    <Compile Include="Assets\CopyMetaGUID.cs" />
+    <Compile Include="Assets\Tools\GenCamPngEditor.cs" />
+    <Compile Include="Assets\Tools\BatchSetLodGroupWindow.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dCommand.cs" />
     <Compile Include="Assets\Quibli\Scripts\Mesh Generators\CurveRenderer.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dGroupMask.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\P3dPainter_Sphere.cs" />
     <Compile Include="Assets\Quibli\Post Process\Scripts\QuibliPostProcess.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
+    <Compile Include="Assets\Me\Proj_Code_UnityTool\PrefabInfo.cs" />
+    <Compile Include="Assets\Tools\Paint in 3D\Scripts\IPaintHandler.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Quibli\Scripts\Mesh Generators\GrassMeshGenerator.cs" />
     <Compile Include="Assets\Quibli\Post Process\Effects\Scripts\ColorGrading.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
+    <Compile Include="Assets\Tools\SHCoef\SphericalHarmonicsCoefficient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Me\Proj_HLSL\Shaders\bilibili\HLSL_00.shader" />
@@ -81,14 +123,11 @@
     <None Include="Assets\Me\Proj_Female_01587\ASE_BreathLight02.shader" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\YouTube\MyLit.shader" />
     <None Include="Assets\Me\Shaders\ASE_PointColor_Paxton.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\UE_PBR_Model.cginc" />
     <None Include="Assets\Me\1cginc\NssLighting.cginc" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\UE_Lighting_Lib.cginc" />
+    <None Include="Assets\Tools\UVInspector\Shaders\UvPreview.shader" />
     <None Include="Assets\Me\Proj_CustomLighting\Custom Function\CustomLighting_GitHub.hlsl" />
     <None Include="Assets\Me\Shaders\Paxton_GlitterColor.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\QSM_BASE_MACRO.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Env\NssWaveCommon.cginc" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\YouTube\MyLitForwardLitPass.hlsl" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\bilibili\HLSL_00_GUI.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_StyleCrystal_Nss.shader" />
@@ -96,13 +135,11 @@
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_PBR.shader" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FX_ASE_FireHair_Paxton_code.shader" />
     <None Include="Assets\Me\Shaders\PaxtonLiu_Flat.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Env\NssOceanCommonProperties.cginc" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\FX_ASE_Sparkle_Paxton_pack240124.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\FX_ASE_Sparkle_Paxton_pack240123.shader" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Pet_J_Fx.shader" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair 1.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_YSJinshu01.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\High\Character_MainBody_RimBlend2Pass_Common.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\QuibliVertex.hlsl" />
     <None Include="Assets\Me\Proj_CustomLighting\Custom Function\CustomLighting_Youtube.hlsl" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair_02_0423_AlphaBlend.shader" />
@@ -112,27 +149,21 @@
     <None Include="Assets\Me\Long\Shader\Water ball_03.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Proj_Test\Proj_HairTest\Shader\Hair_01.shader" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Test.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssEnvWeather.cginc" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_YSJinshu_code.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\UE_Math_Lib.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssPBRSceneInc.cginc" />
     <None Include="Assets\Me\Proj_a_HalfTone\Shader\ASE_HalfTone_Paxton.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssPBRLighting.cginc" />
+    <None Include="Assets\Tools\CubemapToEquirectangular\Shaders\CubemapToEquirectangular.shader" />
     <None Include="Assets\Me\Shaders\PaxtonLiu_Fresnel.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\StylizedInput.hlsl" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Low\Character_MHY_Common_Low.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\UE_PBR_Lighting.cginc" />
     <None Include="Assets\Quibli\Shaders\Skybox.shader" />
     <None Include="Assets\Me\1cginc\NssAvatarPBRCore.cginc" />
     <None Include="Assets\Quibli\Post Process\Effects\Resources\StylizedDetail.shader" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\bilibili\normal.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\AdvCarCommon.cginc" />
     <None Include="Assets\Me\Proj_V45ColorDisturb\Fx_ColorDisturbFlat.shader" />
     <None Include="Assets\Me\Proj_a_HalfTone\Shader\HalfTone_ASE02.shader" />
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\流麻flow_ASE.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Simple\Simple_Diffuse_NoVertexColor.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\ShadowCaster.shader" />
+    <None Include="Assets\Tools\UVInspector\Shaders\Simple.shader" />
     <None Include="Assets\Me\1cginc\QSM_COLORSPACE_CORE.cginc" />
     <None Include="Assets\Quibli\Post Process\Effects\Resources\ColorGrading.shader" />
     <None Include="Assets\Me\1cginc\NssPBRSceneInc.cginc" />
@@ -146,41 +177,29 @@
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\FX_ASE_PixelFlow_Paxton_code.shader" />
     <None Include="Assets\Me\1cginc\NssStaticShadowInc.cginc" />
     <None Include="Assets\Me\1cginc\NssStandardInc_FX.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\LocalReflection.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Special\NSS_SSY.shader" />
     <None Include="Assets\Me\Proj_Crystal_0402\Shaders\Crystal_Paxton_01.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Env\Basic_Diffuse.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssAvatarPBRCore.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Legacy\Character_MainBody_RimBlend_Simple.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\ASE_Flat.shader" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair_02_0313_Pack.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Unity2020_Sparkle\Shader\Tranparent.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\Lighting_DR.hlsl" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\LegacyCommon.hlsl" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\Spark_ASE_240107.shader" />
     <None Include="Assets\Me\1cginc\NssStandardInc.cginc" />
     <None Include="Assets\Me\Proj_FlowMap\Shaders\Paxton_FLow.shader" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\ASE_SimpleGlitter.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssStandardInc_Atlas.cginc" />
     <None Include="Assets\Me\Shaders\PaxtonLiu_MatCapBase.shader" />
     <None Include="Assets\Me\Proj_FlowMap\Shaders\FX_ASE_FlowMap_Paxton.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssStaticShadowInc.cginc" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair_AlphaTest.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssStandardInc_FX.cginc" />
     <None Include="Assets\Me\Proj_CustomLighting\Custom Function\CustomLighting.hlsl" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Env\0_Low\Basic_Diffuse_Low.shader" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\FX_ASE_PixelFlow_Paxton.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\FX_ASE_Sparkle_Paxton_AlphaTest.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssLighting.cginc" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_YSJinshu_ZhiHu.shader" />
     <None Include="Assets\Me\1cginc\QSM_BASE_MACRO.cginc" />
     <None Include="Assets\Me\Proj_MuiltPass\Tranparent.shader" />
     <None Include="Assets\Me\Proj_DOF_BrokenBlur\DOF_BrokenBlur.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Special\Test_StyleMeta_Paxton.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\High\Character_MainBody_RimBlend2Pass.shader" />
     <None Include="Assets\Me\Proj_V45ColorDisturb\VertexDirTest.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\QSM_COLORSPACE_BASIC.cginc" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere.shader" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\BlendModes.cginc" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_StyleCrystal_Nss0507.shader" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Pixel_ASE.shader" />
     <None Include="Assets\Me\1cginc\UE_PBR_Model.cginc" />
@@ -193,10 +212,10 @@
     <None Include="Assets\Me\Proj_Sparkle\Unity2020_Sparkle\Shader\Sparkle01.shader" />
     <None Include="Assets\Me\Proj_V45ColorDisturb\FlatShader.shader" />
     <None Include="Assets\Me\Proj_FlowMap\Shaders\Stylized_Fire.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Low\Character_MainBody_Rim_Fast_CullOff.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\ASE_Flat_Alpha.shader" />
     <None Include="Assets\Me\a\depth_rim.shader" />
     <None Include="Assets\Me\Proj_FlowMapColorful\Shaders\FX_ASE_Car_Flow_Paxton.shader" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Replace.shader" />
     <None Include="Assets\Quibli\Shaders\StylizedLighting.hlsl" />
     <None Include="Assets\Quibli\Shaders\StylizedLit.shader" />
     <None Include="Assets\Me\1cginc\QSM_PBR_CORE.cginc" />
@@ -204,34 +223,29 @@
     <None Include="Assets\Samples\Universal RP\14.0.9\URP Package Samples\SharedAssets\Shaders\3DText.shader" />
     <None Include="Assets\Quibli\Shaders\LibraryUrp\SuppressWarnings.hlsl" />
     <None Include="Assets\Me\Proj_FlowMap\Stylized_Fire.shader" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere Triplanar.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\FX_ASE_Crystal_Paxton.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\High\Character_MHY_Common.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\High\Character_MainBody_Skin.shader" />
     <None Include="Assets\Me\Proj_V45ColorDisturb\NewUnlitShader.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\FX_ASE_Sparkle_Paxton_0126.shader" />
     <None Include="Assets\Me\1cginc\CustomFaceLightingInc.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Character\Legacy\Character_MainBody_RimBlend_Fast.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssMetaPass.cginc" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere Blur.shader" />
     <None Include="Assets\Quibli\Post Process\ShaderLibrary\Core.hlsl" />
     <None Include="Assets\Me\1cginc\UE_PBR_Lighting.cginc" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FireHair_02_0407_Pack.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Proj_Test\Proj_HairTest\Shader\New Amplify Shader.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Proj_Test\Test001.shader" />
     <None Include="Assets\Me\Proj_Sparkle\Unity2020_Sparkle\Shader\ShadowOnly.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\QSM_COLORSPACE_CORE.cginc" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FX_ASE_SkirtFlame_Jiepenghu.shader" />
     <None Include="Assets\Me\Proj_FireHair\Shader\FX_ASE_FireHair_Paxton_code_Pack0508.shader" />
     <None Include="Assets\Me\Proj_Female_01587\ASE_BreathLight01.shader" />
     <None Include="Assets\Me\1cginc\QSM_COLORSPACE_BASIC.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\QSM_PBR_CORE.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\Simple\Diffuse_Write_Depth.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\CustomFaceLightingInc.cginc" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Decal.shader" />
     <None Include="Assets\Me\1cginc\NssPBRLighting.cginc" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\bilibili\MyForwardLitPass.hlsl" />
     <None Include="Assets\Me\Proj_Crystal_0402\Test0529\FX_ASE_Crystal_02_Paxton.shader" />
     <None Include="Assets\Quibli\Shaders\Grass\StylizedFoliage.hlsl" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Sparkle_b_01.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Shaders\NssFog.cginc" />
+    <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Fill.shader" />
     <None Include="Assets\Me\Shaders\PaxtonLiu_Fresnel_2c.shader" />
     <None Include="Assets\Me\Proj_HLSL\Shaders\bilibili\NoiseGenerator.hlsl" />
     <None Include="Assets\Me\Proj_Sparkle\Shaders\流麻flow.shader" />
@@ -241,11 +255,9 @@
     <None Include="Assets\Me\Proj_a_HalfTone\Shader\HalfTone_ASE_Pack.shader" />
     <None Include="Assets\Me\1cginc\NssEnvWeather.cginc" />
     <None Include="Assets\Me\Dota2_Meta_Test.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssAvatarExtBRDF.cginc" />
     <None Include="Assets\Me\Long\Shader\Halflambert.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_Dota2.shader" />
     <None Include="Assets\Me\Proj_YSJinshu\Shader\PaxtonLiu_Test01_code.shader" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssStandardInc.cginc" />
     <None Include="Assets\Me\1cginc\UE_Lighting_Lib.cginc" />
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Spark_ASE.shader" />
     <None Include="Assets\Quibli\Shaders\Grass\FoliageLib.hlsl" />
@@ -256,7 +268,6 @@
     <None Include="Assets\Me\Proj_PetRide_00155_006\Shader\Pet_J_FxPixel.shader" />
     <None Include="Assets\Quibli\Shaders\LightBeam.shader" />
     <None Include="Assets\Me\1cginc\NssAvatarExtBRDF.cginc" />
-    <None Include="Assets\ResForAssetBundles\0BaseCommon\Include\NssShadowInc.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1097,170 +1108,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{4B82BFBE-BF32-0D5E-E6A9-30AA8D08C32B}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{77C1B96E-1495-58CB-698F-7B5ECCB0A8E5}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{4BFA0B4F-5610-0C35-1AC9-F4C075A540AE}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{301D1637-46EB-DE28-18F8-D57AB8F0291D}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{7B48A9B1-7AA9-0D80-E477-B3184591699E}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{FAEF3C2A-046C-E175-9DBD-9025F6E22406}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{348D8749-0ACF-24C4-F7A6-FDF0C93E0A64}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{C0323718-0FC0-DCFD-7FFE-8289763FCA3D}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{8549DC3E-257F-D52A-8014-704168BAD14E}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{297A0C18-4771-14EE-A2DD-205776B8C248}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{1D498E65-31D4-210E-BE29-58E5EBFFA3C3}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{808D49ED-7017-CD2E-256B-F88A31F606F0}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{768A3644-0C93-2045-9E67-88BFE60C4960}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{F9DF8617-B7CA-ADEA-0BAE-8DEBD8429CEA}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{67A9A50B-44B9-4C2A-82D5-0C268052555C}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{104F8049-DCB4-459F-1DA8-CC360A0F2A3D}</Project>
-      <Name>AmplifyShaderEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{0BA7D505-F657-44D6-81A2-311390F5872E}</Project>
-      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{8542F2D4-DD89-24C7-761E-773A3E686E4D}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{5FA8A5FF-F164-E78B-8CB7-F8FC5C55686E}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{700231C1-4BA0-F57D-5BB3-92D59CCE3F59}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{51F2A32D-E473-DDDC-5399-9ED0D56C06A5}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{5D32420E-070A-9C7B-EE36-3F1CD6F04B73}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E1DE8C05-F8A3-E2CD-BFF9-43BC0B4C81A7}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{D4852FE1-BC58-88F8-69E9-4AD16750BDB7}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{ADB31ABC-48B0-0C20-52E5-5BEB2B2970B1}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{6E3D91AB-8570-25D1-EB6E-8759389C5452}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{45194A94-E24B-EA1C-ADB4-CAABF63C5370}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{D3A4791F-06CD-C569-E004-0C31AC375717}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{F65D161A-E840-1182-E5AE-6EDF1646847B}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{6847EB5B-F953-F9F9-AE85-7797EC269B2F}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{6DE834FB-85C3-B9C0-33B8-ED362C69BBDC}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{0E17E9E9-3940-DB6E-085D-7D6D4B7C4CF4}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{B381C520-3BAA-C135-91C0-FEB0390AB2AC}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{74B381CA-C57D-A396-C0FA-1D288FAF13BC}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.spoiledcat.git.csproj">
-      <Project>{CD50F0FA-D7A5-89DC-1102-85892AB17725}</Project>
-      <Name>com.spoiledcat.git</Name>
-    </ProjectReference>
-    <ProjectReference Include="ExternalAttributes.Core.csproj">
-      <Project>{E800819B-31FD-B092-F722-D4977DB70A1D}</Project>
-      <Name>ExternalAttributes.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{52DC060E-B1F3-7097-AFE8-5485B1883472}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Editor.Tasks.csproj">
-      <Project>{EA5322BB-E84E-721B-8D10-C093EA8FF866}</Project>
-      <Name>Unity.Editor.Tasks</Name>
-    </ProjectReference>
-    <ProjectReference Include="ExternalAttributes.Editor.csproj">
-      <Project>{3EA7FB3B-B88B-F2E1-61B5-68CF921CA687}</Project>
-      <Name>ExternalAttributes.Editor</Name>
-    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
+    <ProjectReference Include="Unity.Burst.Editor.csproj" />
+    <ProjectReference Include="Unity.Burst.csproj" />
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
+    <ProjectReference Include="Unity.Timeline.Editor.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
+    <ProjectReference Include="Unity.Rider.Editor.csproj" />
+    <ProjectReference Include="AmplifyShaderEditor.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
+    <ProjectReference Include="Unity.Timeline.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj" />
+    <ProjectReference Include="PPv2URPConverters.csproj" />
+    <ProjectReference Include="Unity.Mathematics.csproj" />
+    <ProjectReference Include="Unity.TextMeshPro.csproj" />
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
+    <ProjectReference Include="Unity.Searcher.Editor.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
+    <ProjectReference Include="Unity.VisualScripting.State.csproj" />
+    <ProjectReference Include="Unity.VSCode.Editor.csproj" />
+    <ProjectReference Include="com.spoiledcat.git.csproj" />
+    <ProjectReference Include="ExternalAttributes.Core.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
+    <ProjectReference Include="Unity.Editor.Tasks.csproj" />
+    <ProjectReference Include="ExternalAttributes.Editor.csproj" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
 </Project>

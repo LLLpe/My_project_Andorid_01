@@ -354,8 +354,8 @@
                 
 
 
-                return NSS_OUTPUT_COLOR_SPACE( c); 
-                // return c; 
+                // return NSS_OUTPUT_COLOR_SPACE( c); 
+                return c; 
             }
             ENDHLSL
         }

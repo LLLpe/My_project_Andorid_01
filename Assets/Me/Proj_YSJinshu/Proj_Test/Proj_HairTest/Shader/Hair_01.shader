@@ -35,7 +35,7 @@ Shader "QF/Character/High/Hair_01"
 	
 	HLSLINCLUDE
 	 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-	 //#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+	 //#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 	 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 	 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Shadows.hlsl"
 

@@ -2,7 +2,7 @@
 #define NSS_AVATAR_PBR_CORE
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 #include "QSM_PBR_CORE.cginc"
 #include "NssAvatarExtBRDF.cginc"
 #include "NssLighting.cginc"

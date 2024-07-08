@@ -2,7 +2,7 @@
 #define NSS_META_PASS
 
 #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LegacyCommon.hlsl"
+#include "Assets/ResForAssetBundles/0BaseCommon/Include/LegacyCommon.hlsl"
 CBUFFER_START(UnityMetaPass)
 // x = use uv1 as raster position
 // y = use uv2 as raster position
